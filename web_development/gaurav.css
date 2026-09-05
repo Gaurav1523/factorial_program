@@ -1,0 +1,151 @@
+#n {
+    color: bisque;
+    background-color: red;
+    
+   
+}
+#hel{
+background-image:url(image.jpg);
+ background-size:cover;
+}
+#hello{
+    /* border-style: dotted; */
+    background-color: green;
+    color: coral;
+    /* border-style: dashed; */
+     /* border-style: solid; */
+      /* border-style: double; */
+       /* border-style: inset; */
+        /* border-style: outset; */
+         /* border-style: none;  */
+         border-color: red;
+         border-radius: 20px;/* give curve to border*/
+       
+}
+.ds{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    
+}
+.da{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+.dp{
+
+    background-color:orange;
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+.cp{
+    width: 105px;
+    height: 350px;
+    background-color: black;
+    align-content: center;
+    color: white;
+    /* float: left; */
+
+}
+#p1{
+    color: red;
+}
+#p2{
+    color: aquamarine;
+}
+#p3{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+
+}
+.navigation :hover{
+
+    color: red;
+    /* display: flex; */
+    /* background-color: yellow;
+    border:10px;
+    border-radius: 10px; */
+    
+}
+
+.navigation{
+  
+    border-color: white;
+    border:inset ;
+    color: red;
+    /* /* margin-left: 30%; */
+    /* margin-right: 50%; */
+    margin-bottom: 10%; 
+    /* height: 30px;
+    width: 400px;
+    gap: 30px; */
+    display: flex;
+    padding:10px ;
+    padding-left: 40%;
+    padding-right:1px ;
+    padding-top:10px ;
+    padding-bottom: 1px;
+    gap: 10%;
+    box-shadow: 1;
+}
+
+#para1{
+    text-shadow: 3px 3px red;
+}
+span{
+    color: red;
+    height: 100px;
+    width: 50px;
+    font-size: 55px !important;
+    /* important attribute is used to chnage size */
+}
+
+#aq{
+    letter-spacing: 5px;
+    color:black;
+    background-color: yellow;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px red;
+    /* margin-top: 10px; */
+    padding-left: 10px;
+}
+#am{
+    /* padding-top: 10px;
+    padding-left: 100px; */
+    margin-left: 50px;
+    
+
+}
+
+#display{
+    display: flex;
+    /* margin-left: 40px; */
+    gap: 20%;
+    color: red;
+    text-decoration:none;
+    list-style-type: none;
+    /* used to remove list bullets */
+    /* float: right; */
+    /* margin-right: 50%; */
+    background-color: aliceblue;
+   
+    padding-right: 130px;
+    padding-left: 10%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}

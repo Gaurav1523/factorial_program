@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>application form</title>
+</head>
+<body bgcolor="orange">
+  <form align="center">
+    <fieldset style="width:50px ;margin: auto;">
+       <legend>APPLICATION FORM</legend><br>
+
+       <label for="name">NAME :</label><br>
+       <input type="text" id="name" placeholder="enter your name" required>
+       <br><br>
+
+       <label for="mobile no">MOBILE NO:</label><br>
+       <input type="number" name="number" id="number" placeholder="enter your mobileno" required><br><br>
+
+       <label for="dob">DATE OF BIRTH:</label><br>
+       <input type="dob" name="dob" id="dob" placeholder="enter your dob" required><br><br>
+
+       <label for="address">ADDRESS:</label><br>
+       <input type="text" name="address" id="address" placeholder="enter your address" required><br>
+
+       <label for="gender">GENDER :</label>
+       <input type="radio" name="gender" id="gender" value="male">male
+       <input type="radio" name="gender" id="gender" value="female">female <br><br>
+
+       <label for="hobbies">HOBBIES :</label>
+       <input type="checkbox" name="hobbies" id="hobbies" value="travelling">travelling 
+       <input type="checkbox" name="hobbies" id="hobbies" value="playing">playing <br>
+       <input type="checkbox" name="hobbies" id="hobbies" value="watching movies">watching movies 
+       <input type="checkbox" name="hobbies" id="hobbies" value="study">study 
+       <br>
+
+      <label for="city">CITY:</label>
+       <select name="city" id="city" >
+        <option value="nanded" selected>Nanded</option>
+        <option value="pune">PUNE</option>
+        <option value="delhi">DELHI</option>
+       </select>
+       <br><br>
+
+       <label for="file">FILE :</label>
+       <input type="file" name="file" id="file" required><br><br>
+      
+       <input type="button" value="submit" required>
+
+
+    </fieldset>
+  </form>
+  
+</body>
+</html>

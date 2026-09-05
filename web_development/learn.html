@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="cartquantity ++;
+document.querySelector('#cart_summary').innerText = `your bag has ${cartquantity} item`;
+">Add to bag</button>
+
+  <button onclick="cartquantity--;document.querySelector('#cart_summary').innerText =`your bag has ${cartquantity} item`;"> move wish list</button>
+  <button onclick="alert('item had been added to bag')";>add 1+1 sale item</button>
+
+  <h1 id="cart_summary"></h1>
+  <div id="my_name">
+    <h1></h1>
+  </div>
+  
+  <script>
+    // let welcomemessage='hello friends';
+    // console.log(welcomemessage);
+
+    // let a=5;
+    // let b=6;
+    // let c=a+b;
+    // console.log(c);
+
+    // let i=5;
+    // console.log(i);
+    
+    // i +=5; // i=i+5
+    // console.log(i);
+    let cartquantity=0;
+    document.queryselector('#cart_summary').
+    innertext=`your bag has ${cartquantity} item`;
+
+    // this is used to print name
+
+    const myName='gaurav';
+    document.queryselector('#my_name').innertext=myName;
+    
+    console.log('45'+90);
+
+    console.log(eval('2+2*3*5-9'));
+
+  </script>
+</body>
+</html>

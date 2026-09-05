@@ -1,1 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+    <link rel="stylesheet" href="gaurav.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
 
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close"/>
+
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>  -->
+
+     <link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <!-- <style>
+         /* id selector */
+      #greeting{
+        color: red; 
+        background-color: antiquewhite;
+      }
+      /* class selector */
+      .c{
+        color: aquamarine; 
+        background: #000;
+      }
+      /* universal selector */
+      *{
+        color: gold;
+      }
+      /* group selector */
+      h2,p{
+        color: chocolate;
+        background: yellowgreen;
+      }
+    </style> -->
+</head>
+<body id="hel">      
+
+    <h1><b>hello</b></h1>
+    <br>
+    <h2>hello</h2>
+
+
+    <h1>hello</h1>
+    <hr>
+    <h2>good morning</h2>
+
+
+
+    <h1>1 hii</h1>
+    <h2>2 hii</h2>
+    <h3>3 hii</h3>
+    <h4>4 hii</h4>
+    <h5>5 hii</h5>
+    <h6>6 hii</h6>
+   
+    <p>this is a first paragraph</p>
+
+    <p>this is second paragraph</p>
+
+    <b>bold text</b><br>
+    <i>italic font</i>
+     
+
+    <h1> hello <mark>good</mark>morning</h1>
+
+    <u>good morning</u>
+
+     <pre id="pre_tag">Lorem mque obcaecati adipisci delectus          ducimus distinctio vitae rerum?</pre>
+      <!-- jaisa text hai vaisa dikhega change nhi hoga  -->
+
+    <h1>h<sub>2</sub>so<sub>4</sub></h1>
+    <h1>10 <sup>th</sup></h1>
+
+
+    <a href="demo.html">click here </a>
+    <br>
+    <a href="demo.html" target="_blank">click for second page</a>
+    <br>
+
+
+
+    <table border="1">
+          <tr>
+              <th>id</th>
+              <th>name</th>
+              <th>class</th>
+              <!-- <th colspan="2">contact</th> colspan it is used for create sub column in 1 contact -->
+              <th>city</th>
+          </tr>
+
+         <tr>
+            <td>101</td>
+            <td>gaurav</td>
+            <td>th</td>
+            <td>9322811018</td>
+            <td>8698831563</td>
+            <td>nanded</td>
+         </tr>
+
+         <tr>
+            <td>102</td>
+            <td>shiv</td>
+            <td>th</td>
+            <td>7894561230</td>
+            <td>8888888888</td>
+            <td>pune</td>
+         </tr>
+
+         <tr>
+            <td>103</td>
+            <td>pravin</td>
+            <td>th</td>
+            <td>7894561230</td>
+            <td>8888888888</td>
+            <td>pune</td>
+
+         </tr>
+         <br>
+
+    </table>
+
+      <!-- image add -->
+
+        <img src="image.jpg" alt="not found " height="500px" width="700px">
+        <img src="image.jpg" alt="not found " height="50%" width="50%">
+
+        <br>
+
+        <!-- order list -->
+
+        <ol type="1">
+            <li>html</li>
+            <li>css</li>
+            <li>javscript</li>
+            <li>mongodb</li>
+            <li>python</li>
+        </ol>
+        <hr>
+
+        <ul list-style-type: circle>
+            <li>aaaaa</li>
+            <li>bbbbb</li>
+            <li>ccccc</li>
+            <li>ddddd</li>
+            <li>eeeee</li>
+        </ul>
+        <br>
+
+        <!-- dl tags -->
+
+        <dl>
+            <dt>html</dt>
+            <dd>hypertext markup language</dd>
+
+            <dt>css</dt>
+            <dd>cascading style sheet</dd>
+
+        </dl>
+
+    <!-- forms -->
+     <!-- fieldset is used to give border to a form -->
+    <fieldset style="width:40%;margin: auto;"> 
+    <form align="center">
+        <legend >used to give name in a form</legend>
+       <!-- in label  for is used to highlight box and in input id is also used this two are same name -->
+        <label for="name ">NAME</label>
+        <input type="text" id="name" placeholder="enter your name" required><br>
+
+        <label for="email">EMAIL</label>
+       <input type="email" placeholder="entre your email" required><br>
+
+       <label for="address">ADDRESS</label>
+       <input type="address" placeholder="enter your address" required><br>
+
+      <label for="contact">CONTACT</label>
+      contact: <input type="number" placeholder="enter your number"><br>
+
+      <label for="dob">DATE OF BIRTH</label>
+      dob : <input type="date" placeholder="dob"><br>
+
+      <label for="gendet">GENDER :</label>
+      GENDER: <input type="radio" name="gender" value="male">male <br>
+              <input type="radio" name="gender" value="female">female <br>
+
+    CITY: <input type="text" placeholder="enter your city"><br><br>
+    FILe: <input type="file place"><br><br>
+    
+
+
+    ADDRESS: <textarea name="address" rows="7"cols="20" placeholder="ENTER YOUR ADDRESS"></textarea><br><br>
+
+    <select name="element">
+       <option value="pune">pune</option>
+       <option value="nanded">nanded</option>
+       <option value="delhi">delhi</option>
+       <option value="kolkata">kolkata</option>
+
+    </select><br><br>
+    <button type="submit">submit</button>
+            
+    </form>
+   </fieldset>
+   <br><br>
+
+   <abbr title="hypertext markup language">html</abbr><br><br>
+
+   <abbr title="hypertext  markup language">html</abbr><br><br>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, rem quae <del>possimus</del> <ins>gaurav</ins>numquam cumque quos ab ea, molestiae sint impedit corporis. Accusamus ratione est assumenda soluta porro ipsam provident at?</p>
+   
+   <del>hardwork</del><ins>smart work</ins>
+
+   <!-- div tag is container of block used to store multiple tag -->
+   <div style="border:1px;padding: 20px;font-size: 20px;">
+ 
+     <h1>hello</h1>
+     <p>hello good morning</p>
+
+     <marquee behavior="slide" direction="right" bgcolor="yellow"> hello good morning</marquee>
+
+     <marquee behavior="scroll" direction="left" bgcolor="red"><img src="image.jpg" alt="not found" width="30px" height=20px></marquee>
+
+     <marquee behavior="alternate" direction="up & down" bgcolor="grey">good morning</marquee>
+
+     <nav>
+        <a href="#">home</a><br>
+        <a href="#">shop</a><br>
+        
+
+        
+     </nav><br>
+
+     <audio controls>
+        <source src="birthday.mp3" type="audio/mp3">
+     </audio>
+
+     <video controls>
+          <source src="" type="">
+     </video>
+
+     <!-- inline css -->
+
+     <h1 style="color: aqua;">good morning</h1>
+
+
+    <!-- internal css -->
+
+   <p id="greeting">good morning</p>
+
+
+   <p id="abc">hello</p>
+   <center class="c">hello good morning</center>
+   </div>
+
+<p id="n">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, illo!</p>
+
+<span id="hello">hello good morning </span><br><br>
+
+<div class="cp">
+<div class="ds">
+
+</div>
+<br>
+<div class="da">
+
+</div>
+<br>
+<div class="dp">
+
+</div>
+</div>
+
+
+<h1 id="p1">hello good morning</h1><br>
+<h1 id="p2">hello</h1><br>
+<h1 id="p3">hello</h1><br>
+
+
+
+<div class="navigation">
+
+   <nav>
+      <a href="#">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+      <a href="#skills">SKILL</a>
+      <button>submit</button>
+   </nav>
+</div>
+
+<img src="image.jpg" alt="not found" style="opacity:0.5; height: 50%; width: 50%;">
+
+<img src="image.jpg" alt="not found" style="box-shadow: 10px 10px 10px 10px white; height: 50%; width: 50%;margin-left: 50px; margin-bottom: 50px;">
+
+<p id="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt qui optio nulla beatae, vitae explicabo repudiandae doloremque porro! Tenetur distinctio fuga consequuntur blanditiis aspernatur culpa dicta unde optio est voluptas?</p>
+
+
+<!-- <span class="material-symbols-outlined">
+search
+</span><br> -->
+<!-- <span class="material-symbols-outlined">
+home
+</span>
+
+<span class="material-symbols-outlined">
+home
+</span> -->
+
+<div class="symbol">
+<span class="material-symbols-outlined">
+menu
+</span>
+
+<span class="material-symbols-outlined">
+close
+</span>
+
+<span class="material-symbols-outlined">
+settings
+</span>
+</div>
+
+<p id="aq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum error molestias dolorem labore optio similique, impedit quidem quo. Ipsa, commodi sit mollitia velit ad natus quo ex quod magnam iste!
+</p>
+
+
+<p id="am">hello my name is__</p>
+
+<ul id="display">
+   <li><a href="#">home</a></li>
+   <li><a href="#">about</a></li>
+   <li><a href="#">skills</a></li>
+   <li><a href="#">contact</a></li>
+   <li><a href="#">help</a></li>
+   
+</ul>
+</body>
+</html>
